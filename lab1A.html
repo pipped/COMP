@@ -1,0 +1,82 @@
+<!-- lab1A.html -->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Lab 1A Page</title>
+    <link rel="stylesheet" href="lab1A.css">
+    <style>
+      table {
+        border-collapse: collapse;
+      }
+      table, td {
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Dylan Sokolov</h1>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/BMW.svg/1200px-BMW.svg.png" alt="BMW Logo" width="100">
+    </div>
+
+    <table>
+      <tr>
+        <!-- Upper-left: Hobbies -->
+        <td>
+          <ul>
+            <li>Driving the canyons
+              <ul>
+                <li>4 years</li>
+              </ul>
+            </li>
+            <li>Gaming
+              <ul>
+                <li>9 years</li>
+              </ul>
+            </li>
+            <li>Traveling
+              <ul>
+                <li>10 years</li>
+              </ul>
+            </li>
+          </ul>
+        </td>
+
+        <!-- Upper-right: Form -->
+        <td>
+          <form action="https://www.csun.edu/~akaplan/index.php" method="get">
+            Your Name: <input type="text" name="yourname"><br>
+            Major: <input type="text" name="major"><br>
+            <input type="hidden" name="page" value="2">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+          </form>
+        </td>
+      </tr>
+
+      <tr>
+        <!-- Lower-left: Dropdown Menu -->
+        <td>
+          <div class="dropdown">
+            Application Layer
+            <ul class="dropdown-content">
+              <li>Transport Layer</li>
+              <li>Internet Layer</li>
+              <li>Network Interface Layer</li>
+            </ul>
+          </div>
+        </td>
+
+        <!-- Lower-right: Google Lookup Form -->
+        <td>
+          <form action="https://www.google.com/search" method="get">
+            Lookup: <input type="text" name="q">
+            <input type="submit" value="Search">
+          </form>
+        </td>
+      </tr>
+    </table>
+
+    <p><a href="lab1.html">Return to Main Page</a></p>
+  </body>
+</html>
