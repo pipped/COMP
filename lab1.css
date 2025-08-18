@@ -1,0 +1,44 @@
+/* lab1A.css */
+.header {
+    border: 2px solid red;
+    text-align: center;
+    padding: 10px;
+}
+
+.header img {
+    display: block;
+    margin: 0 auto;
+	width: 400px;
+}
+
+.dropdown {
+    border: 1px solid blue;
+    background-color: blue;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    position: relative;
+}
+
+.dropdown-content {
+    list-style: none;
+    display: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content li {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 1px solid blue;
+}
+
+.dropdown-content li:hover {
+    background-color: yellow;
+    color: black;
+}
