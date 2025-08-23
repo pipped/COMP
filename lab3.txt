@@ -1,0 +1,10 @@
+app.js (main code) (Express server, mongoDB connection, session setup)
+
+package.json (shortcuts) (gives ability to run shortcut "node app.js" & tells node which dependencies to run)
+
+node_modules (all installed dependencies for project)
+
+package.json (exact version of dependencies) 
+
+The full project is complete as well as the extra credit for hashed passwords using bcrypt
+
